@@ -18,7 +18,7 @@ $ npm install rockhopper
   * Configurable intervals
   * External logging JSON on incoming udp
 
-## example external logging
+## example external logging apache
 
 ```
 LogFormat "{ \
