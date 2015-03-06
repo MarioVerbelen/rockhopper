@@ -30,6 +30,13 @@ $ node example_app
   * Logging cpu, memory, load stats to Elasticsearch
   * Configurable intervals
   * External logging JSON on incoming udp
+  * Graphing on Kibana
+
+## Screenshots
+
+[![Rockhopper](http://mario.verbelen.org/img/kibana4_dashboard_ApacheLog_example_512.png)](http://mario.verbelen.org/img/kibana4_dashboard_ApacheLog_example.png)
+
+[![Rockhopper](http://mario.verbelen.org/img/kibana4_dashboard_example_512.png)](http://mario.verbelen.org/img/kibana4_dashboard_example.png)
 
 ## example external logging apache
 
