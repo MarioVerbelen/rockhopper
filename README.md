@@ -32,7 +32,7 @@ $ node example_app
   * External logging JSON on incoming udp
   * Graphing on Kibana
 
-## Screenshots
+## Screenshots with Kibana 4
 
 [![Rockhopper](http://mario.verbelen.org/img/kibana4_dashboard_ApacheLog_example_512.png)](http://mario.verbelen.org/img/kibana4_dashboard_ApacheLog_example.png)
 
