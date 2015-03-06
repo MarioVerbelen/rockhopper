@@ -22,4 +22,4 @@
  * THE SOFTWARE.
  */
 
-require('./lib/stats')(require('./lib/functions'));
+module.exports = require('./lib/stats');

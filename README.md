@@ -12,6 +12,17 @@ var rockhopper = require('rockhopper');
 $ npm install rockhopper
 ```
 
+## Test
+
+```bash
+$ mkdir test
+$ cd test
+$ mkdir node_modules
+$ npm install rockhopper
+$ cd node_modules/rockhopper/example
+$ node example_app
+```
+
 ## features
 
   * Logging cpu, memory, load stats to Elasticsearch
