@@ -1,5 +1,5 @@
 # Rockhopper 
-
+[[![Rockhopper](http://mario.verbelen.org/img/Rockhopper_Penguin_32.png)](https://github.com/MarioVerbelen/rockhopper)]
 The Rockhopper Penguin
 
 ```js
