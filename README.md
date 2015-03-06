@@ -14,12 +14,14 @@ $ npm install rockhopper
 
 ## Test
 
+* OS = linux
+* requirements: elasticsearch server
+
 ```bash
-$ mkdir test
+$ mkdir -p test/node_modules
 $ cd test
-$ mkdir node_modules
 $ npm install rockhopper
-$ cd node_modules/rockhopper/example
+$ cp node_modules/rockhopper/example/* .
 $ node example_app
 ```
 
