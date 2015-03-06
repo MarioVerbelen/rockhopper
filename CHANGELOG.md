@@ -1,4 +1,6 @@
 # rockhopper
+  * 0.0.5
+    * fix logo syntax for npmjs
   * 0.0.4
     * Add logo
   * 0.0.3
