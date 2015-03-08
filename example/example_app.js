@@ -1,4 +1,4 @@
-var config = require('./local_config');
+var config = require('./config');
 var Rockhopper = require('rockhopper');
 rockhopper = new Rockhopper(config);
 

@@ -1,6 +1,8 @@
 # rockhopper
   * ToDo
     * check if index already exists to avoid IndexAlreadyExistsException
+  * 0.0.7
+    * fix config.createIndexes switch
   * 0.0.6
     * add mapping support + default mappings
     * create index of tomorrow in advance (avoid bad mappings)
