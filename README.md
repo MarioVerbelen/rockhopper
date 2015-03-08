@@ -1,9 +1,30 @@
 # Rockhopper 
+
 [![Rockhopper](http://mario.verbelen.org/img/Rockhopper_Penguin_32.png)](https://github.com/MarioVerbelen/rockhopper)
+
 The Rockhopper Penguin
 
 ```js
-var rockhopper = require('rockhopper');
+var config = require('./local_config');
+var Rockhopper = require('rockhopper');
+rockhopper = new Rockhopper(config);
+
+var exampleMapping = {
+  "apache" : {
+    "properties": {
+      "@timestamp": {
+        "type": "date",
+        "format": "dateOptionalTime"
+      },
+      "bytes": {
+        "type": "long"
+      }
+    }
+  }
+};
+rockhopper.addMapping(exampleMapping);
+
+rockhopper.run();
 ```
 
 ## Install
@@ -27,7 +48,9 @@ $ node example_app
 
 ## features
 
-  * Logging cpu, memory, load stats to Elasticsearch
+  * Logging to Elasticsearch
+    *  cpu, memory, load stats
+  * Index mapping
   * Configurable intervals
   * External logging JSON on incoming udp
   * Graphing on Kibana

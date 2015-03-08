@@ -2,6 +2,15 @@ var config = {};
 
 config.log = 'info';
 
+config.indexPrefix = 'rockhopper-';
+config.number_of_shards = 2;
+config.number_of_replicas = 1;
+
+/* don't create indexes on all Rockhopper's, one is enough
+ * two if you want HA for index creations
+ */
+config.createIndexes = true;
+
 config.elasticSearchServer = '127.0.0.1:9200';
 config.pushBuff = 5000000; // 5MB default
 config.pushFlushTime = 5000; // time in ms
