@@ -1,6 +1,10 @@
 # rockhopper
   * ToDo
     * check if index already exists to avoid IndexAlreadyExistsException
+  * 0.0.9
+    * add option config.refresh_interval for performance gain of indexing documents
+    * add default settings of index creation
+    * fix bufferSize not resetted @flush
   * 0.0.8
     * fix createIndexTomorrow
   * 0.0.7

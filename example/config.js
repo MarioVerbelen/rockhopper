@@ -5,6 +5,7 @@ config.log = 'info';
 config.indexPrefix = 'rockhopper-';
 config.number_of_shards = 2;
 config.number_of_replicas = 1;
+config.refresh_interval = 5;
 
 /* don't create indexes on all Rockhopper's, one is enough
  * two if you want HA for index creations
