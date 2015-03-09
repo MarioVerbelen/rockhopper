@@ -1,6 +1,8 @@
 # rockhopper
   * ToDo
     * check if index already exists to avoid IndexAlreadyExistsException
+  * 0.0.8
+    * fix createIndexTomorrow
   * 0.0.7
     * fix config.createIndexes switch
   * 0.0.6
