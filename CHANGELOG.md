@@ -1,6 +1,8 @@
 # rockhopper
   * ToDo
     * check if index already exists to avoid IndexAlreadyExistsException
+  * 0.0.10
+    * fix configSet if config.udpServer = false
   * 0.0.9
     * add option config.refresh_interval for performance gain of indexing documents
     * add default settings of index creation
