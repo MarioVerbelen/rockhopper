@@ -14,10 +14,10 @@
     "linux system stats"
   ],
   "dependencies": {
-    "elasticsearch": "3.1.3"
+    "elasticsearch": "10.1.2"
   },
   "engines": {
-    "node": "<=0.12"
+    "node": "<=4.2.4"
   },
   "author": "Mario Verbelen <mario@verbelen.org>",
   "license": "MIT"
