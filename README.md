@@ -32,6 +32,18 @@ rockhopper.run();
 ```bash
 $ npm install rockhopper
 ```
+## Tuning
+
+  * Low memory servers
+    * node option: --max_old_space=64
+      This wil limit the old heap space to 64M (low traffic rockhopper can run with 15MB old space)
+    * node option: --expose_gc and add code to app.js below
+    ```javascript
+    setInterval( function(){
+      gc();;
+      }, 10000 );
+    ```
+      This will force garbage collection every 10sec to cleanup memory 
 
 ## Test
 
