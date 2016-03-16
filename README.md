@@ -35,7 +35,7 @@ $ npm install rockhopper
 ## Tuning
 
   * Low memory servers
-    * node option: --max_old_space=64
+    * node option: --max_old_space_size=64
       This wil limit the old heap space to 64M (low traffic rockhopper can run with 15MB old space)
     * node option: --expose_gc and add code to app.js below
     ```javascript
